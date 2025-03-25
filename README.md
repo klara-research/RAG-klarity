@@ -33,7 +33,7 @@ RAG-Klarity is a specialized lightweight model designed to detect hallucinations
 <div align="center">
   <br>
   <p><i>Example of token-level analysis showing hallucinated portions of a response</i></p>
-  <img src="assets/example.png" alt="example" width="800"/>
+  <img src="assets/example.png" alt="example" width="500"/>
   <br>
 </div>
 
