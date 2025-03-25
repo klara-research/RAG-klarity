@@ -50,7 +50,7 @@ Our hallucination detection model achieves SOTA performance while maintaining ex
 <div align="center">
   <br>
   <p><i>Hallucination Detection Benchmark Results</i></p>
-  <img src="assets/benchmark.png" alt="benchmark" width="800">
+  <img src="assets/benchmark.png" alt="benchmark" width="400">
   <br>
 </div>
 
