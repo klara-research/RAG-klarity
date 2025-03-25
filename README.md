@@ -4,16 +4,16 @@
 
   # RAG-Klarity
 
-  **State-of-the-Art Hallucination Detection for RAG Systems**
+  **State-of-the-Art Hallucination Detection Model for RAG Systems**
   <br>
   <br>
   🔍 **Instantly identify hallucinations in AI-generated content**
   <br>
   <br>
-  📊 **80.3% F1 Score on RAGTruth benchmark**
+  📊 **82% F1 Score on RAGTruth benchmark**
   <br>
   <br>
-  ⚡ **30 examples/second on a single GPU**
+  ⚡ **30 examples/second on a single machine**
   <br>
   <br>
   <a href="https://discord.gg/wCnTRzBE">
@@ -39,9 +39,9 @@ RAG-Klarity is a specialized lightweight model designed to detect hallucinations
 
 ## 📊 Benchmark Results
 
-Our hallucination detection model achieves state-of-the-art performance while maintaining exceptional inference speed:
+Our hallucination detection model achieves SOTA performance while maintaining exceptional inference speed:
 
-- **80.3% F1 Score** on the RAGTruth benchmark, outperforming previous encoder-based models
+- **82% F1 Score** on the RAGTruth benchmark, outperforming previous encoder-based models
 - **30 examples/second** processing speed on a single GPU
 - **Compact model size** (300M parameters)
 - **30x smaller** than comparable LLM-based detection systems
@@ -56,7 +56,7 @@ Our hallucination detection model achieves state-of-the-art performance while ma
 
 ## 🚀 Quick Start Guide
 
-Get an API key from [Klara Labs Platform](https://platform.klaralabs.com/dashboard)
+Get an API key from [Klara Labs Platform](https://platform.klaralabs.com/)
 
 ### Basic Usage
 
@@ -68,10 +68,10 @@ api_key = "YOUR_API_KEY"
 url = "https://api.klaralabs.com/detect"
 headers = {"X-API-Key": api_key, "Content-Type": "application/json"}
 
-# Example data
+# Example of not grounded data
 data = {
     "context": ["Italy is a country in Europe. The capital of Italy is Rome."],
-    "question": "What is the capital of Italy?",
+    "question": "What is the capital of France?",
     "answer": "Paris is the capital of France"
 }
 
@@ -196,7 +196,7 @@ if __name__ == "__main__":
 
 RAG-Klarity is ideal for:
 
-- **Enterprise RAG Systems**: Ensure AI-generated knowledge base responses are factually grounded
+- **Enterprise AI Systems**: Ensure AI-generated knowledge base responses are factually grounded
 - **Content Moderation**: Detect potentially misleading AI-generated content in real-time
 - **Academic Research**: Validate information retrieval and generation systems
 - **Customer Support**: Ensure AI assistants provide accurate, contextually relevant answers
@@ -258,11 +258,12 @@ The API returns structured data including:
 - [Website](https://klaralabs.com)
 - [Discord Community](https://discord.gg/wCnTRzBE) for discussions & support
 - [GitHub Issues](https://github.com/klara-research/rag-klarity/issues) for bugs and features
-- Email: support@klaralabs.com
+- [API Docs](https://klaralabs.gitbook.io/klara-labs-docs)
+- Email: davide@klaralabs.com
 
 ## 📝 License
 
-This is a closed-source project with a proprietary license. API access is provided through [Klara Labs Platform](https://platform.klaralabs.com/dashboard).
+This is a model with a proprietary license. API access is provided through [Klara Labs Platform](https://platform.klaralabs.com/).
 
 <div align="center">
 
